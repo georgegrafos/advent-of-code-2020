@@ -79,15 +79,14 @@ const findAllSeatIds = () => {
 }
 
 /**
- * 
- * @param {int[]} seatIds - List of seat IDs in ascending order
- * 
- * Part Two
+ * Part Two.
  * 
  * We loop through all the found seat IDs and check if the ID after any are
  * missing. If the seat ID behind is missing, we must also check if the ID 
  * behind that one is also missing to ensure we haven't reached the back of
  * the plane. If the second seat ID does exist, then we have found our seat.
+ * 
+ * @param {int[]} seatIds - List of seat IDs in ascending order
  */
 const findMySeat = (seatIds) => {
   const seatBeforeOwn = seatIds.find((id) => {

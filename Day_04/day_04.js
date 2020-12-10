@@ -139,12 +139,11 @@ function findValidPassportsWithStrictRules() {
 }
 
 /**
+ * Additional rule checks required for some fields.
  * 
  * @param {string} field - Passport field
  * @param {number} value - Value of the passport field
  * @param {any} additionalData - Any additional data needed to validate a field
- * 
- * Additional rule checks required for some fields.
  */
 function isPassportFieldValid(field, value, additionalData = null) {
   switch (field) {

@@ -69,10 +69,6 @@ function partTwo() {
 }
 
 /**
- * 
- * @param {number} moveRight - How many positions to the right to move
- * @param {number} moveDown - How many positions down to move
- * 
  * We start at the top left square for each run. We loop through every line
  * of the input until we hit the bottom. The pattern loops, so before moving
  * to the right, we determine if the move will result in going over the edge.
@@ -80,6 +76,9 @@ function partTwo() {
  * we determine the correct square to move to, we simply check the string to
  * see if it's a tree or open square and add to the trees encountered count
  * accordingly. The number of trees encountered at the end is returned.
+ * 
+ * @param {number} moveRight - How many positions to the right to move
+ * @param {number} moveDown - How many positions down to move
  */
 function findNumberOfTreesEncountered(moveRight, moveDown) {
   let currentRow = 0;
@@ -126,13 +125,12 @@ function findNumberOfTreesEncountered(moveRight, moveDown) {
 }
 
 /**
+ * Takes a string and replaces the character at the given index with the
+ * replacement string. Returns the new string.
  * 
  * @param {string} line - Line to update
  * @param {number} index - Position to place replacement
  * @param {string} replacement - Character to swap in
- * 
- * Takes a string and replaces the character at the given index with the
- * replacement string. Returns the new string.
  */
 function replaceCharAt(line, index, replacement) {
   return (
