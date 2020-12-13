@@ -1,6 +1,4 @@
 /**
- * Date: December 3, 2020
- * 
  * Part 1: Starting at the top-left corner of your map and following a slope of
  * right 3 and down 1, how many trees would you encounter? Note that the same
  * pattern repeats to the right many times.

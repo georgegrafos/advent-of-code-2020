@@ -1,6 +1,4 @@
 /**
- * Date: December 4, 2020
- * 
  * The goal is to determine which passports from the input are valid. Each
  * passport is represented as a sequence of key:value pairs separated by
  * spaces or newlines. Passports are separated by blank lines.Passports

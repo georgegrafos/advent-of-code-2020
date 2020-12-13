@@ -1,6 +1,4 @@
 /**
- * Date: December 1, 2020
- * 
  * Part 1: Find which two numbers in the input array add up to 2020. Then
  * multiply those two numbers. The result is the answer.
  * 

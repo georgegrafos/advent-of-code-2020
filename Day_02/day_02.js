@@ -1,6 +1,4 @@
 /**
- * Date: December 2, 2020
- * 
  * Part 1: Find the number of passwords that contain the given letter a number
  * of times that is within the given range (min-max).
  * 

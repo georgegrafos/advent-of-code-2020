@@ -1,6 +1,4 @@
 /**
- * Date: December 5, 2020
- * 
  * Part 1: Find the seats attributed to each boarding pass from the input by
  * converting the row and seat designations to integers. Then apply the
  * equation row * 8 + seat to find the seat IDs. The answer is the largest ID.
